@@ -1,6 +1,45 @@
 = mycroft
 
-Description goes here.
+mycroft and mycroftd will help me manage my server(s).
+Sure, I could use Heroku for everything, and you probably should, 
+but I can be a lazy guy, and like to put heug static filez in my
+repos sometimes. Plus my servers, balloons, fiesta, and cake, like
+to run node and php sites too.
+
+Also, my clients (read: friends) don't use git, and like to Apple-K
+into the server to manage their webshitz. But, as the server grows,
+I don't want to ssh-in all the fucking time — mycroft alleviates
+this responsibility by doing things like:
+
+* Revarnishing websites.
+* Restarting nginx.
+* Reloading nginx.
+* Resetting permissions. 
+* Automagickly setting up Wordpress. 
+* Changing sftp passwordz.
+
+=== Why not use cpanel?
+
+cpanel sux.
+
+==== Why does cpanel sux?
+
+it's ugly and old.
+
+=== Why not use webmin?
+
+I already dew that.    
+
+== Examples
+
+None yet. 
+
+== ok. 
+
+Also, I'm already kinda drunk.
+
+
+
 
 == Contributing to mycroft
  
