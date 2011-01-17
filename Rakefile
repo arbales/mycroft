@@ -16,9 +16,11 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/arbales/mycroft"
   gem.license = "MIT"
   gem.summary = %Q{Mycroft}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Helps manage servers.}
   gem.email = "arbales@gmail.com"
-  gem.authors = ["Austin Bales"]
+  gem.authors = ["Austin Bales"] 
+  gem.files = Dir["{lib}/**/*"] 
+  gem.add_bundler_dependencies
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
