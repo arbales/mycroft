@@ -1,45 +1,22 @@
 = mycroft
 
-mycroft and mycroftd will help me manage my server(s).
-Sure, I could use Heroku for everything, and you probably should, 
-but I can be a lazy guy, and like to put heug static filez in my
-repos sometimes. Plus my servers, balloons, fiesta, and cake, like
-to run node and php sites too.
-
-Also, my clients (read: friends) don't use git, and like to Apple-K
-into the server to manage their webshitz. But, as the server grows,
-I don't want to ssh-in all the fucking time — mycroft alleviates
-this responsibility by doing things like:
+mycroft and mycroftd will help manage servers. It does or will do things like:                                             
 
 * Revarnishing websites.
 * Restarting nginx.
 * Reloading nginx.
 * Resetting permissions. 
-* Automagickly setting up Wordpress. 
-* Changing sftp passwordz.
+* Automatically setting up [vogue blogging platform]. 
+* Changing user account passwords for AFP and SFTP.
 
-=== Why not use cpanel?
-
-cpanel sux.
-
-==== Why does cpanel sux?
-
-it's ugly and old.
-
-=== Why not use webmin?
-
-I already dew that.    
+=== Why not use ______?
+Good question. Mostly because it want it to be easy to build my own UI
+on top of whatever I use, which isn't possible with tools like Webmin or cpanel.
 
 == Examples
-
-None yet. 
-
-== ok. 
-
-Also, I'm already kinda drunk.
-
-
-
+A pseudocode example using Grape::API is located in the examples folder.  
+Generally though, you can start the privileged server with `sudo mycroftd`
+Afterwords you can submit things to it with `Mycroft::Actions::Nginx.restart`
 
 == Contributing to mycroft
  
@@ -48,8 +25,6 @@ Also, I'm already kinda drunk.
 * Fork the project
 * Start a feature/bugfix branch
 * Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 == Copyright
 
