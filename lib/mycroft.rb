@@ -13,6 +13,7 @@ class Mycroft
     autoload :Nginx,            'mycroft/actions/nginx'
     autoload :Permissions,      'mycroft/actions/permissions'
     autoload :FlushPermissions, 'mycroft/actions/flush_permissions'
+    autoload :Touch, 'mycroft/actions/touch'
   end  
   
   class Error < StandardError
